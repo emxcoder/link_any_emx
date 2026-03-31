@@ -11,7 +11,7 @@ class App extends StatelessComponent {
       h1([Component.text('Links do EMX')]),
       ul([
         li([
-          a(href: 'https://github.com/emxcoder', [Component.text('GitHub')]),
+          a(href: 'https://github.com/emxcoder', [Component.text('GitHub EMXJCARE')]),
         ]),
         li([
           a(href: 'https://youtube.com/@emxcoder', [Component.text('Youtube')]),
