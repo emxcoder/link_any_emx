@@ -17,6 +17,15 @@ class App extends StatelessComponent {
           a(href: 'https://youtube.com/@emxcoder', [Component.text('Youtube')]),
         ]),
       ]),
+      div(
+        classes: 'f k',
+        styles: Styles(color: Colors.aquamarine),
+        attributes: {'my-at': 'value'},
+        events: {'click': (e) => print('Clicked element')},
+        [
+          h2([.text('Emxcoder ${DateTime.now().year.toString()}')]),
+        ],
+      ),
     ]);
   }
 }
