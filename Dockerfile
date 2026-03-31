@@ -5,7 +5,7 @@ RUN dart pub get
 
 COPY . .
 RUN dart pub global activate jaspr_cli
-RUN dart pub global run jaspr:jaspr build
+RUN dart pub global run jaspr build
 
 FROM debian:bookworm-slim
 
